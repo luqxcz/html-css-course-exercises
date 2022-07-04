@@ -1,0 +1,90 @@
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white; /*text color*/
+    border: none;
+    border-radius: 2px; /*rounded corners*/
+    cursor: pointer; /*gets pointer, when hover over the button*/
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition:opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active{
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    /* height: 36px; //not a good idea to have height and width we are forcing the button to have a height of 36px and width of 62pixel and if our text is bigger it will overflow
+    width: 62px; */
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top:  9px; /* (The border add 1px to the top and bottom), (to compensate we reduce the paddign at the top and bottom by 1 px ), now it's the same size (9px of space in he inside + 1px of the border width and that matches the 10pixels of space on the inside of the subscribe button) */
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    /* margin-right: 8px; */
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+
+
+  .tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 74px; */
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: box-shadow 0.5s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .tweet-button:active{
+    opacity: 0.7;
+  }
+
+</style>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+
+<button class="tweet-button">Tweet</button>
