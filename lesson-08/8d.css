@@ -1,0 +1,101 @@
+.first-name-inputbox {
+  margin-right: 4px;
+  font-size: 16px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: gray;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  vertical-align: middle;
+
+  margin-bottom: 10px;
+}
+
+.last-name-inputbox {
+  margin-right: 4px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: gray;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  vertical-align: middle;
+
+  margin-bottom: 10px;
+}
+
+.email-inputbox {
+  display: block;
+  width: 410px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.sign-up-button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 182px;
+  padding-right: 182px;
+  cursor: pointer;
+}
+
+
+/* Another Solution */
+
+/* input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.first-name-inputbox {
+  width: 148px;
+}
+
+.last-name-inputbox {
+  width: 148px;
+}
+
+.email-inputbox {
+  display: block;
+  width: 300px;
+}
+
+button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 300px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+} */

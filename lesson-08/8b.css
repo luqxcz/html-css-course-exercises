@@ -1,0 +1,13 @@
+.paragraph {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.yes-button {
+  vertical-align: middle;
+}
+
+.no-button {
+  vertical-align: middle;
+}
