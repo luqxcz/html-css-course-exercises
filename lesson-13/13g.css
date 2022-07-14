@@ -1,0 +1,89 @@
+div {
+  font-family: Arial;
+
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  /* width: 500px;
+  border-width: 1px;
+  border-style: solid; */
+}
+
+
+.profile-picture-column {
+  /* background-color: lightblue; */
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 12px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.tweet-column {
+  /* background-color: gray; */
+  width: 400px;
+  padding-left: 6px;
+}
+
+.tweet-info {
+  /* background-color: lightcoral; */
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.username {
+  color: gray;
+}
+
+.tweet {
+  /* background-color: rgb(97, 57, 161); */
+  width: 350px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.video {
+  display: flex;
+  /* background-color: aquamarine; */
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.video-preview {
+  width: 75px;
+  background-color: rgb(214, 212, 212);
+  /* margin-left: 1px; */
+  border-radius: 11px 0 0 11px;
+  overflow: hidden;
+}
+
+.video-description {
+  flex: 1;
+  padding-left: 6px;
+}
+
+.youtube-url {
+  color: gray;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.video-info {
+  padding-bottom: 12px;
+}
